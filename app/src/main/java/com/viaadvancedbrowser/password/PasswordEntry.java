@@ -1,0 +1,1 @@
+package com.viaadvancedbrowser.password; public class PasswordEntry{ private String domain, username, password; public String getUsername(){return username;} public String getPassword(){return password;} }

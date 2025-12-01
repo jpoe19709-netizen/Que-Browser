@@ -1,0 +1,1 @@
+package com.viaadvancedbrowser.database; import androidx.room.Dao; import androidx.room.Insert; import androidx.room.Query; import java.util.List; @Dao public interface BookmarkDao { @Insert void insert(Bookmark b); @Query("SELECT * FROM Bookmark ORDER BY timestamp DESC") List<Bookmark> all(); }

@@ -1,0 +1,1 @@
+package com.viaadvancedbrowser.script; public class UserScript { private String name; private String code; public UserScript(String n, String c){name=n;code=c;} public String getCode(){return code;} }

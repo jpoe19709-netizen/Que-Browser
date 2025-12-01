@@ -1,0 +1,1 @@
+package com.viaadvancedbrowser.database; import androidx.room.Entity; import androidx.room.PrimaryKey; @Entity public class Bookmark { @PrimaryKey(autoGenerate = true) public long id; public String title; public String url; public long timestamp; }
